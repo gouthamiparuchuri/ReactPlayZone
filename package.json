@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React Play Zone",
+  "default": "app.js",
+  "scripts": {
+    "start": "parcel app.html",
+    "build": "parcel build app.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouthamiparuchuri/ReactPlayZone.git"
+  },
+  "keywords": [
+    "React",
+    "Jest"
+  ],
+  "author": "Gouthami Paruchuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gouthamiparuchuri/ReactPlayZone.gi/issues"
+  },
+  "homepage": "https://github.com/gouthamiparuchuri/ReactPlayZone.gi#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist": ["last 10 chrome versions", "last 10 safari versions", "last 10 edge versions"]
+}
