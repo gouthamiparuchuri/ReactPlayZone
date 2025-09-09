@@ -2,7 +2,6 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React Play Zone",
-  "default": "app.js",
   "scripts": {
     "start": "parcel app.html",
     "build": "parcel build app.html",
