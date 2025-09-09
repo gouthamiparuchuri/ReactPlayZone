@@ -17,3 +17,25 @@ var nestedElement = React.createElement("div", { key: "mainDiv" }, [
     )
 ])
 ReactDOM.createRoot(document.getElementById("nestedDiv")).render(nestedElement);
+
+//JSX
+//React ELement
+var headingJSX = (
+    <div>
+        <div>Hello From JSX React ELement</div>
+        <div>
+            <h1 key="h1Header" className="jsxHeaderDiv" hello="world">Hello World from JSX!</h1>
+        </div>
+    </div>
+);
+
+ReactDOM.createRoot(document.getElementById("jsxDiv")).render(headingJSX);
+
+
+//React Component
+// a) functional components(new)
+
+// b) class based
+
+
+

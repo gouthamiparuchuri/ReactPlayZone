@@ -19,3 +19,11 @@
 - different dev and prod builds
 - transpiled (babel)
 ====================================================================================================================================
+3. JSX
+- html like/xml like syntax
+- transpiler(babel) converts jsx to react
+a) React Element
+B) React Component
+    - class
+    - functional(new)
+====================================================================================================================================
